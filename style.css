@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  }
+  
+  #quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;;
+  }
+  
+  #question-container {
+    margin-top: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  #question {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #answer-buttons {
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  
+  .answer-button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;;
+  }
+  
+  .answer-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #controls {
+    margin-top: 2rem;
+  }
+  
+  #start-button, #next-button {
+    font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  }
+  
+  #start-button:hover, #next-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #next-button {
+    display: none;
+  }
+  .answer-button.correct {
+    background-color: green;
+  }
+  
+  .answer-button.wrong {
+    background-color: red;
+  }
+  #timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #timer {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  button[disabled] {
+    pointer-events: none;
+  }
+  #score-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #final-score {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+   
+  #myChart {
+    width: 50%;
+    height: auto;
+    max-width: 400px; 
+    max-height: 400px; 
+  }
+  
+  
+  #input-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+
+ 
+  
+  
+  
+   
+  
+  
+
+  
+  
